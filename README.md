@@ -1,4 +1,4 @@
-# Frontend Mentor - Recipe Page 🍴
+# Challenges Frontend Mentor - Recipe Page 🍴
 
 Este projeto foi desenvolvido como parte de um desafio do [Frontend Mentor](https://www.frontendmentor.io). O objetivo foi criar uma página de receitas responsiva utilizando **HTML** e **CSS**, reforçando conceitos de estruturação semântica e design adaptável.
 
