@@ -1,0 +1,113 @@
+:root {
+    --Font-Young-Serif: "Young Serif", serif;
+    --Font-Outfit: "Outfit", serif;
+}
+body {
+    background-color: #f3e6d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container {
+    background-color:  #ffffff;
+    padding: 30px;
+    max-width: 800px;
+    margin: 40px;
+    border-radius: 15px;
+}
+.container .image-main {
+    width: 100%;
+    border-radius: 15px;
+    margin: 10px 0;
+}
+.container .title {
+    font-family: var(--Font-Young-Serif);
+    margin: 15px 0;
+    font-size: 3rem;
+}
+.container .description-title {
+    color: hsl(30, 10%, 34%);
+    margin-bottom: 30px;
+    line-height: 25px;
+    font-family: var(--Font-Outfit); 
+    width: 90%;
+}
+.preparation .preparation-title {
+    color: #7b284f;
+    font-weight: bold;
+    font-family: var(--Font-Outfit);
+}
+.container .preparation {
+    background-color: hsl(30, 54%, 90%);
+    border-radius: 10px;
+}
+.container .preparation .preparation-title {
+    padding: 20px 0 20px 40px;
+}
+.preparation ul {
+    margin-left: 55px;
+}
+.preparation ul li {
+    padding: 0 0 15px 10px;
+    color: #302d2c;
+    font-family: var(--Font-Outfit);
+}
+.container .ingredients, .instructions {
+    border-bottom: 1px solid #c9c1b8;
+    padding-bottom: 20px;
+}
+.container .ingredients .ingredients-title,
+.instructions-title, .nutrition-title {
+    font-family: var(--Font-Young-Serif);
+    margin: 20px 0;
+    color:#854632;
+    font-size: 1.8rem;
+}
+.ingredients  ul, .instructions ol {
+    margin-left: 15px;
+}
+.ingredients ul li, .instructions ol li {
+    font-family: var(--Font-Outfit);
+    margin-bottom: 10px;
+    color: #5f574e;
+    padding-left: 15px;
+}
+.ingredients ul li::marker, .instructions ol li::marker, .preparation ul li::marker {
+    color:#854632;
+    font-weight: 600;
+}
+.nutrition .nutrition-description {
+    color: #5f574e;
+    margin-bottom: 20px;
+    font-family: var(--Font-Outfit);
+}
+.nutrition .calories-description{
+    color: #5f574e;
+    display: flex;
+    border-bottom: 1px solid #c9c1b8;
+    font-family: var(--Font-Outfit);
+}
+/* Table */
+.table {
+    width: 100%; 
+    border-collapse: collapse; 
+    font-family: var(--Font-Outfit);
+}
+  
+.table tr {
+    border-bottom: 1px solid #c9c1b8;
+}
+  
+.table tr:nth-child(4) {
+    border-bottom: none;
+}
+.table td {
+    color: #5f574e;
+    padding: 8px 0 8px 40px;
+}
+.table th {
+    color:#854632;
+    padding: 8px 70px 8px 0px;
+    text-align: left;
+}
