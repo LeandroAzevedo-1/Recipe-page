@@ -38,4 +38,4 @@ A cada projeto, novos conhecimentos são adquiridos e conceitos importantes são
 <img src="./design/preview.jpg">
 <img src="./design/mobile-design.jpg" style="aling-itens: center">
 
-Acesse a página online: [Live Demo]().
+Acesse a página online: [Live Demo](https://leandroazevedo-1.github.io/Recipe-page/).
